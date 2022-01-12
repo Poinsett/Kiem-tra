@@ -16,23 +16,29 @@
 }
 .menu_phai{
     padding-left: 600px; 
+   
 }
 ul,li{
     display: flex;
-    padding-left: 40px;
-    padding-top: 20px;
+    padding-left: 20px;
+    padding-top: 12px;
 }
 a{
     text-decoration: none;
-    border-color: violet;
+    background: none repeat scroll 0 0 #f3deea;
+    border: 15px solid #f3deea;
+    color:  #9f3d6c;
+    border-radius: 5px;
+    height: 15px;
+}
+.active{
+    background: none repeat scroll 0 0 #9f3d6c;
+    border: 15px solid #9f3d6c;
+    color:  #ffffff;
+    border-radius: 5px;
+    height: 15px;
 }
 #than{
     display: flex;
 }
-.than .khoi1{
-    
-    background-repeat: repeat-x;
-    text-align: right;
 
-    height: 80px;
-}

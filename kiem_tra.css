@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#thanh_menu{
+    background-image: url(img/menu.png);
+    background-repeat: repeat-x;
+    text-align: right;
+    height: 90px;
+    width: 1400px;
+}
+.menu_trai{
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 100px;
+}
+.menu_phai{
+    padding-left: 600px; 
+}
+ul,li{
+    display: flex;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    border-color: violet;
+}
+#than{
+    display: flex;
+}
+.than .khoi1{
+    
+    background-repeat: repeat-x;
+    text-align: right;
+
+    height: 80px;
+}

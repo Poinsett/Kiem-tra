@@ -5,22 +5,20 @@
 #thanh_menu{
     background-image: url(img/menu.png);
     background-repeat: repeat-x;
-    text-align: right;
-    height: 90px;
-    width: 1400px;
+    height: 105px;
+    width: 1920px;
 }
 .menu_trai{
     position: absolute;
-    margin-top: 9px;
-    margin-left: 100px;
+    margin-top: 16px;
+    margin-left: 255px;
 }
 .menu_phai{
-    padding-left: 600px; 
-   
+    padding-left: 903px; 
 }
 ul,li{
     display: flex;
-    padding-left: 20px;
+    padding-left: 40px;
     padding-top: 12px;
 }
 a{
@@ -40,5 +38,36 @@ a{
 }
 #than{
     display: flex;
+    width: 1920px;
+    height: 695px;
 }
-
+.khoi1 {
+    background-image: url(img/nen.png);
+    text-align: center;
+    margin-right: -1066px;
+    height: 695px;
+    width: 1066px;
+}
+.khoi1 h1{
+    color:  #9f3d6c;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 250px;
+}
+.khoi1 p{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 29px;
+    font-family:'Times New Roman', Times, serif;
+}
+.khoi2{
+    position: absolute;
+    margin-top: 295px;
+    margin-left: 807px;
+}
+.khoi3{
+    margin-left: 1065px;
+}
